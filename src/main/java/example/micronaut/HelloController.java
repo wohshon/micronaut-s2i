@@ -8,8 +8,8 @@ import io.micronaut.http.annotation.Produces;
 @Controller("/hello") 
 public class HelloController {
     @Get("/") 
-    @Produces(MediaType.TEXT_PLAIN) 
+    @Produces(MediaType.TEXT_JSON) 
     public String index() {
-        return "Hello World123"; 
+        return "Hello World123456"; 
     }
 }
